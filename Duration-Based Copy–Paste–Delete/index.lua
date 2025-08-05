@@ -3,7 +3,7 @@
 -- 适用于需要快速操作的场景，避免多次点击
 -- 注意：此脚本假设左键按下时不会有其他操作干扰
 
-local SHORT_MS = 150      -- <200ms 做“粘贴”
+local SHORT_MS = 140      -- <140ms 做“粘贴”
 local DOUBLE_CLICK_MS = 400 -- 双击最大间隔
 local pressTime = 0
 local lastReleaseTime = 0
